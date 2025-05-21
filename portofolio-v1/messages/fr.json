@@ -2,5 +2,12 @@
   "HomePage": {
     "title": "Hello world!",
     "about": "Aller vers la page à propos"
+  },
+  "LocaleLayout": {
+    "title": "next-intl example"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, es {ES} en {US} fr {FR} other {Unknown}}"
   }
 }
