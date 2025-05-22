@@ -10,16 +10,6 @@ export const metadata: Metadata = {
   description: 'Un portfolio révolutionnaire',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="fr" suppressHydrationWarning>
-      <body className={inter.className}>
-        <Providers>{children}</Providers>
-      </body>
-    </html>
-  )
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return children // plus de <html> ni <body>
 }

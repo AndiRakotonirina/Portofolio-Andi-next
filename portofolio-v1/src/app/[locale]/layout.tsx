@@ -44,10 +44,11 @@ export default async function LocaleLayout({children, params}: Props) {
   setRequestLocale(locale);
 
   return (
-    <html className="h-full" lang={locale}>
+    <html className="h-full" lang={locale} suppressHydrationWarning>
       <body className={clsx(inter.className, 'flex h-full flex-col')}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-            <NextIntlClientProvider><Navbar/>
+            <NextIntlClientProvider>
+              <Navbar/>
             {children}
             </NextIntlClientProvider>
         </ThemeProvider>
