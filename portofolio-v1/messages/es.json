@@ -1,13 +1,13 @@
 {
   "HomePage": {
-    "title": "Hello world!",
-    "about": "Ir a la página acerca de"
+    "title": "¡Hola, mundo!",
+    "about": "Ir a la página Acerca de"
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "ejemplo de next-intl"
   },
   "LocaleSwitcher": {
-    "label": "Change language",
+    "label": "Cambiar de idioma",
     "locale": "{locale, select, es {ES} en {US} fr {FR} other {Unknown}}"
   }
 }
